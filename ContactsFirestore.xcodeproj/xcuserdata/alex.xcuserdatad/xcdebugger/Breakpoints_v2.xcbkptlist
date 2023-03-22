@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7F3F4B6D-B0C0-4FEC-81D6-0156539802F2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FD1E2D4-F742-4466-8B32-B6CA1A7D3961"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactsFirestore/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "addDidPress(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FD1E2D4-F742-4466-8B32-B6CA1A7D3961 - 158887555b8ea18d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactsFirestore.ViewController.addDidPress(Any) -&gt; ()"
+                  moduleName = "ContactsFirestore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Downloads/iOS/source/ContactsFirestore/ContactsFirestore/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "2385">
+               </Location>
+               <Location
+                  uuid = "6FD1E2D4-F742-4466-8B32-B6CA1A7D3961 - 158887555b8ea18d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactsFirestore.ViewController.addDidPress(Any) -&gt; ()"
+                  moduleName = "ContactsFirestore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Downloads/iOS/source/ContactsFirestore/ContactsFirestore/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "4993">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

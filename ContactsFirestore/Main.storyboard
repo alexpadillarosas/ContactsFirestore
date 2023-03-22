@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q0v-CL-HFZ">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8Nv-gB-Rc3">
+            <objects>
+                <viewController id="q0v-CL-HFZ" customClass="ViewController" customModule="ContactsFirestore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d38-3t-QJS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Id" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="NWH-Uw-Bq6">
+                                <rect key="frame" x="16" y="20" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="D1d-Cz-aIE">
+                                <rect key="frame" x="16" y="62" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xj5-Jh-7jB">
+                                <rect key="frame" x="16" y="104" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="U0c-SO-FhJ">
+                                <rect key="frame" x="16" y="146" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Photo" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VAt-eN-LvB">
+                                <rect key="frame" x="16" y="188" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Position" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2lE-iU-0h7">
+                                <rect key="frame" x="16" y="230" width="288" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BW7-Nq-r37">
+                                <rect key="frame" x="16" y="272" width="288" height="119.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mL4-6a-eLd">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="34.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdj-5W-n89">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Search by Id"/>
+                                                <connections>
+                                                    <action selector="searchDidPress:" destination="q0v-CL-HFZ" eventType="touchUpInside" id="Kxj-KA-RN4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLt-om-XKi">
+                                                <rect key="frame" x="144" y="0.0" width="144" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Add"/>
+                                                <connections>
+                                                    <action selector="addDidPress:" destination="q0v-CL-HFZ" eventType="touchUpInside" id="qfV-1A-itU"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9wf-9v-gm9">
+                                        <rect key="frame" x="0.0" y="42.5" width="288" height="34.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mv0-H6-ZVC">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Update"/>
+                                                <connections>
+                                                    <action selector="updateDidPress:" destination="q0v-CL-HFZ" eventType="touchUpInside" id="PxR-xy-Khm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lv-H1-SKp">
+                                                <rect key="frame" x="144" y="0.0" width="144" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Delete"/>
+                                                <connections>
+                                                    <action selector="deleteDidPress:" destination="q0v-CL-HFZ" eventType="touchUpInside" id="gk2-D1-OPR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekb-Rb-g68">
+                                        <rect key="frame" x="0.0" y="85" width="288" height="34.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCq-sD-XzQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Clear"/>
+                                                <connections>
+                                                    <action selector="clearDidPress:" destination="q0v-CL-HFZ" eventType="touchUpInside" id="f6Z-xe-ldQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Aa9-b8-Uk1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2lE-iU-0h7" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="2c0-b7-oG1"/>
+                            <constraint firstItem="VAt-eN-LvB" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="3Is-M0-fUQ"/>
+                            <constraint firstItem="xj5-Jh-7jB" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="7cc-tM-Abb"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="D1d-Cz-aIE" secondAttribute="trailing" constant="16" id="Dyr-Bf-FR9"/>
+                            <constraint firstItem="BW7-Nq-r37" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="N4P-xs-GOC"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="BW7-Nq-r37" secondAttribute="trailing" constant="16" id="Neg-F7-wfl"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="VAt-eN-LvB" secondAttribute="trailing" constant="16" id="Pwl-Ev-OsO"/>
+                            <constraint firstItem="D1d-Cz-aIE" firstAttribute="top" secondItem="NWH-Uw-Bq6" secondAttribute="bottom" constant="8" symbolic="YES" id="XGk-Gz-jcf"/>
+                            <constraint firstItem="xj5-Jh-7jB" firstAttribute="top" secondItem="D1d-Cz-aIE" secondAttribute="bottom" constant="8" symbolic="YES" id="Zxr-QV-was"/>
+                            <constraint firstItem="2lE-iU-0h7" firstAttribute="top" secondItem="VAt-eN-LvB" secondAttribute="bottom" constant="8" symbolic="YES" id="a6c-vg-0oi"/>
+                            <constraint firstItem="VAt-eN-LvB" firstAttribute="top" secondItem="U0c-SO-FhJ" secondAttribute="bottom" constant="8" symbolic="YES" id="bui-7D-SfQ"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="U0c-SO-FhJ" secondAttribute="trailing" constant="16" id="cY0-pV-P7L"/>
+                            <constraint firstItem="U0c-SO-FhJ" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="e1b-3K-0Oh"/>
+                            <constraint firstItem="U0c-SO-FhJ" firstAttribute="top" secondItem="xj5-Jh-7jB" secondAttribute="bottom" constant="8" symbolic="YES" id="lAP-ZN-fYV"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="NWH-Uw-Bq6" secondAttribute="trailing" constant="16" id="mrs-gZ-3nC"/>
+                            <constraint firstItem="D1d-Cz-aIE" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="mzD-P5-z0e"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="2lE-iU-0h7" secondAttribute="trailing" constant="16" id="oQE-zK-dpS"/>
+                            <constraint firstItem="NWH-Uw-Bq6" firstAttribute="top" secondItem="Aa9-b8-Uk1" secondAttribute="top" constant="20" id="qjb-uX-VHs"/>
+                            <constraint firstItem="NWH-Uw-Bq6" firstAttribute="leading" secondItem="Aa9-b8-Uk1" secondAttribute="leading" constant="16" id="qlZ-ro-isv"/>
+                            <constraint firstItem="BW7-Nq-r37" firstAttribute="top" secondItem="2lE-iU-0h7" secondAttribute="bottom" constant="8" symbolic="YES" id="u2Z-DB-YLC"/>
+                            <constraint firstItem="Aa9-b8-Uk1" firstAttribute="trailing" secondItem="xj5-Jh-7jB" secondAttribute="trailing" constant="16" id="vSy-tw-E5U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="xj5-Jh-7jB" id="n7j-aZ-fqr"/>
+                        <outlet property="idTextField" destination="NWH-Uw-Bq6" id="7zk-r5-qYx"/>
+                        <outlet property="nameTextField" destination="D1d-Cz-aIE" id="F4j-UO-68R"/>
+                        <outlet property="phoneTextField" destination="U0c-SO-FhJ" id="d58-V0-pod"/>
+                        <outlet property="photoTextField" destination="VAt-eN-LvB" id="1AR-hs-FES"/>
+                        <outlet property="positionTextField" destination="2lE-iU-0h7" id="1il-7N-ZYl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XQU-01-BBx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431.25" y="-101.40845070422536"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
