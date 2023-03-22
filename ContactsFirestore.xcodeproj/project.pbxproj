@@ -14,7 +14,6 @@
 		FACB794229C31E51004C3955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB794129C31E51004C3955 /* Assets.xcassets */; };
 		FACB794529C31E51004C3955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB794329C31E51004C3955 /* LaunchScreen.storyboard */; };
 		FACB794D29C31E7B004C3955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB794C29C31E7B004C3955 /* Main.storyboard */; };
-		FACB794F29C31F8D004C3955 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACB794E29C31F8D004C3955 /* GoogleService-Info.plist */; };
 		FACB795229C32091004C3955 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FACB795129C32091004C3955 /* FirebaseFirestore */; };
 		FACB795429C32701004C3955 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB795329C32701004C3955 /* Contact.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		FACB794429C31E51004C3955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACB794629C31E51004C3955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACB794C29C31E7B004C3955 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FACB794E29C31F8D004C3955 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FACB795329C32701004C3955 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 		FACB793729C31E50004C3955 /* ContactsFirestore */ = {
 			isa = PBXGroup;
 			children = (
-				FACB794E29C31F8D004C3955 /* GoogleService-Info.plist */,
 				FACB793829C31E50004C3955 /* AppDelegate.swift */,
 				FACB793A29C31E50004C3955 /* SceneDelegate.swift */,
 				FACB793C29C31E50004C3955 /* ViewController.swift */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACB794529C31E51004C3955 /* LaunchScreen.storyboard in Resources */,
-				FACB794F29C31F8D004C3955 /* GoogleService-Info.plist in Resources */,
 				FACB794229C31E51004C3955 /* Assets.xcassets in Resources */,
 				FACB794D29C31E7B004C3955 /* Main.storyboard in Resources */,
 			);
